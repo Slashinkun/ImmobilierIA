@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import csv
 
 class NonValide(Exception):
 
@@ -101,9 +102,7 @@ def informations(soup):
     except NonValide as e:
         raise e
 
-valide = 0
-
-def getInformationOflink(link):
+def getInformationOflink(list, link):
     soup = getsoup(link)
 
     detailsContainers = soup.find_all('div', class_='product-details-container')
@@ -114,28 +113,34 @@ def getInformationOflink(link):
         if "https://www.immo-entre-particuliers.com/" not in href:
             href = "https://www.immo-entre-particuliers.com/" + href
         try:
-            global valide
-            print(informations(getsoup(href)))
-            valide += 1
-            print(f"Nb valide: {valide}")
+            information = informations(getsoup(href)) 
+            list.append(information.split(','))
+
+            print(information)
         except NonValide as e:
             print(e)
 
 def scrapLink(link):
-    npage = 1
-    
+
+    npage = 1    
     flagend = False
+    headers = ["Ville","Type","Surface","Nbr de pieces","Nbr de chambres","Nbr de salle de bains","DPE","Prix"]
+    scrappedDatasList = [headers]
 
     while (not flagend):
         print()
         print(f"Page: {npage}")
         print()
         soup = getsoup(link+f"/{npage}")
-        getInformationOflink(link+f"/{npage}")
+        getInformationOflink(scrappedDatasList, link+f"/{npage}")
 
         npage += 1
 
         if soup.find('li', class_="next disabled") != None:
             flagend = True
+
+    with open('data.csv', 'w+', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(scrappedDatasList)
 
 scrapLink("https://www.immo-entre-particuliers.com/annonces/france-ile-de-france/vente/ta-offer")
