@@ -56,8 +56,6 @@ def type(soup):
 
     return type
 
-
-
 def surface(soup):
     try:
         blocCaracteres = __caracteristiques__(soup)
