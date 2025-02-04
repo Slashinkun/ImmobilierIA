@@ -17,8 +17,8 @@ def getsoup(url):
 
 def prix(soup):
 
-    prixComplet = soup.find('p', class_='product-price').text
-    prix = prixComplet.replace(' €', '').replace(' ', '')
+    prixTexte = soup.find('p', class_='product-price').text
+    prix = prixTexte.replace(' €', '').replace(' ', '')
 
     if (int(prix) < 10000):
         raise NonValide("Prix < 10000")
@@ -27,9 +27,9 @@ def prix(soup):
 
 def ville(soup):
 
-    villeComplet = soup.find('h2', class_='mt-0').text
-    indexVille = villeComplet.rfind(', ') + 2
-    ville = villeComplet[indexVille::]
+    villeTexte = soup.find('h2', class_='mt-0').text
+    indexVille = villeTexte.rfind(', ') + 2
+    ville = villeTexte[indexVille::]
 
     return ville
  
