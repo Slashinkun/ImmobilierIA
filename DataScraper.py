@@ -28,8 +28,8 @@ def prix(soup):
 def ville(soup):
 
     villeComplet = soup.find('h2', class_='mt-0').text
-    index = villeComplet.rfind(', ')
-    ville = villeComplet[index+2::]
+    indexVille = villeComplet.rfind(', ') + 2
+    ville = villeComplet[indexVille::]
 
     return ville
  
