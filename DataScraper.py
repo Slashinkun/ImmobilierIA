@@ -33,3 +33,51 @@ def ville(soup):
 
     return ville
  
+# Récupère le bloc parent où se trouve les caractéristiques
+def __caracteristiques__(soup):
+    blocCaracteres = soup.find(string="Caractéristiques :").parent.parent
+    return blocCaracteres
+
+def type(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    type = blocCaracteres.find(string="Type").parent.next_sibling.text
+
+    if (type not in ['Maison', 'Appartement']):
+        raise NonValide("Pas une maison ou un appartement")
+
+    return type
+
+def surface(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    surface = blocCaracteres.find(string="Surface").parent.next_sibling.text.replace(" m²","")
+
+    return surface
+
+
+def nbrpieces(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    return blocCaracteres.find(string="Nb. de pièces").parent.next_sibling.text
+
+def nbrchambres(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    return blocCaracteres.find(string="Nb. de chambres").parent.next_sibling.text
+
+def nbrsdb(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    return blocCaracteres.find(string="Nb. de sales de bains").parent.next_sibling.text
+    
+def dpe(soup):
+    blocCaracteres = __caracteristiques__(soup)
+
+    return blocCaracteres.find(string="DPE").parent.next_sibling.text[0]
+    
+def informations(soup):
+    try:
+        return f"{ville(soup)},{type(soup)},{surface(soup)},{nbrpieces(soup)},{nbrchambres(soup)},{nbrsdb(soup)},{dpe(soup)},{prix(soup)}"
+    except NonValide as e:
+        raise e
