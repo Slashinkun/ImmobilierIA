@@ -17,7 +17,11 @@ def getsoup(url):
 
 def prix(soup):
 
-    prixTexte = soup.find('p', class_='product-price').text
+    try:
+        prixTexte = soup.find('p', class_='product-price').text
+    except AttributeError:
+        raise NonValide("Prix non précisé")
+    
     prix = prixTexte.replace(' €', '').replace(' ', '')
 
     if (int(prix) < 10000):
@@ -41,43 +45,97 @@ def __caracteristiques__(soup):
 def type(soup):
     blocCaracteres = __caracteristiques__(soup)
 
-    type = blocCaracteres.find(string="Type").parent.next_sibling.text
+    try:
+        type = blocCaracteres.find(string="Type").parent.next_sibling.text
+    except AttributeError:
+        raise NonValide("Pas de type précisé")
 
     if (type not in ['Maison', 'Appartement']):
         raise NonValide("Pas une maison ou un appartement")
 
     return type
 
+
+
 def surface(soup):
-    blocCaracteres = __caracteristiques__(soup)
+    try:
+        blocCaracteres = __caracteristiques__(soup)
+        surface = blocCaracteres.find(string="Surface").parent.next_sibling.text.replace(" m²","")
 
-    surface = blocCaracteres.find(string="Surface").parent.next_sibling.text.replace(" m²","")
-
-    return surface
+        return surface
+    except AttributeError:
+        return "-"
 
 
 def nbrpieces(soup):
-    blocCaracteres = __caracteristiques__(soup)
-
-    return blocCaracteres.find(string="Nb. de pièces").parent.next_sibling.text
+    try:
+        blocCaracteres = __caracteristiques__(soup)
+        return blocCaracteres.find(string="Nb. de pièces").parent.next_sibling.text
+    except AttributeError:
+        return "-"
 
 def nbrchambres(soup):
-    blocCaracteres = __caracteristiques__(soup)
-
-    return blocCaracteres.find(string="Nb. de chambres").parent.next_sibling.text
+    try:
+        blocCaracteres = __caracteristiques__(soup)
+        return blocCaracteres.find(string="Nb. de chambres").parent.next_sibling.text
+    except AttributeError:
+        return "-"
 
 def nbrsdb(soup):
-    blocCaracteres = __caracteristiques__(soup)
-
-    return blocCaracteres.find(string="Nb. de sales de bains").parent.next_sibling.text
+    try:
+        blocCaracteres = __caracteristiques__(soup)
+        return blocCaracteres.find(string="Nb. de sales de bains").parent.next_sibling.text
+    except AttributeError:
+        return "-"
     
 def dpe(soup):
-    blocCaracteres = __caracteristiques__(soup)
-
-    return blocCaracteres.find(string="DPE").parent.next_sibling.text[0]
+    try:
+        blocCaracteres = __caracteristiques__(soup)
+        return blocCaracteres.find(string="Consommation d'énergie (DPE)").parent.next_sibling.text[0]
+    except AttributeError:
+        return "-"
     
 def informations(soup):
     try:
         return f"{ville(soup)},{type(soup)},{surface(soup)},{nbrpieces(soup)},{nbrchambres(soup)},{nbrsdb(soup)},{dpe(soup)},{prix(soup)}"
     except NonValide as e:
         raise e
+
+valide = 0
+
+def getInformationOflink(link):
+    soup = getsoup(link)
+
+    detailsContainers = soup.find_all('div', class_='product-details-container')
+
+    for container in detailsContainers:
+        clink = container.find('a')
+        href = clink.get("href")
+        if "https://www.immo-entre-particuliers.com/" not in href:
+            href = "https://www.immo-entre-particuliers.com/" + href
+        try:
+            global valide
+            print(informations(getsoup(href)))
+            valide += 1
+            print(f"Nb valide: {valide}")
+        except NonValide as e:
+            print(e)
+
+def scrapLink(link):
+    npage = 1
+    
+    flagend = False
+
+    while (not flagend):
+        print()
+        print(f"Page: {npage}")
+        print()
+        soup = getsoup(link+f"/{npage}")
+        getInformationOflink(link+f"/{npage}")
+
+        npage += 1
+
+        if soup.find('li', class_="next disabled") != None:
+            flagend = True
+
+scrapLink("https://www.immo-entre-particuliers.com/annonces/france-ile-de-france/vente/ta-offer")
