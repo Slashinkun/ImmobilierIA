@@ -24,4 +24,12 @@ def prix(soup):
         raise NonValide("Prix < 10000")
 
     return prix
+
+def ville(soup):
+
+    villeComplet = soup.find('h2', class_='mt-0').text
+    index = villeComplet.rfind(', ')
+    ville = villeComplet[index+2::]
+
+    return ville
  
