@@ -95,28 +95,9 @@ def dpe(soup):
         return "-"
     
 def informations(soup):
-    try:
-        return f"{ville(soup)},{type(soup)},{surface(soup)},{nbrpieces(soup)},{nbrchambres(soup)},{nbrsdb(soup)},{dpe(soup)},{prix(soup)}"
-    except NonValide as e:
-        raise e
+    return f"{ville(soup)},{type(soup)},{surface(soup)},{nbrpieces(soup)},{nbrchambres(soup)},{nbrsdb(soup)},{dpe(soup)},{prix(soup)}"
 
-def getInformationsOfLinks(writer, soup):
-
-    detailsContainers = soup.find_all('div', class_='product-details-container')
-
-    for container in detailsContainers:
-        clink = container.find('a')
-        href = clink.get("href")
-        if "https://www.immo-entre-particuliers.com/" not in href:
-            href = "https://www.immo-entre-particuliers.com/" + href
-        try:
-            information = informations(getsoup(href)) 
-            writer.writerow(information.split(','))
-
-            print(information)
-        except NonValide as e:
-            print(e)
-
+# Récupère les informations de toute les pages d'une page de recherche et l'écrit dans un csv
 def scrapLink(link):
 
     npage = 1    
@@ -132,9 +113,29 @@ def scrapLink(link):
             print(f"Page: {npage}")
             print()
             soup = getsoup(link+f"/{npage}")
-            getInformationsOfLinks(writer, soup)
+            __getInformationsOfLinks__(writer, soup)
 
             npage += 1
 
             if soup.find('li', class_="next disabled") != None:
                 flagend = True
+
+# Récupère les informations d'une page contenant une liste d'annonce
+# fonction auxiliaire et privé de scrapLink: 
+# écrit les informations récupérés dans le csv 
+def __getInformationsOfLinks__(writer, soup):
+
+    detailsContainers = soup.find_all('div', class_='product-details-container')
+
+    for container in detailsContainers:
+        clink = container.find('a')
+        href = clink.get("href")
+        if "https://www.immo-entre-particuliers.com" not in href:
+            href = "https://www.immo-entre-particuliers.com" + href
+        try:
+            information = informations(getsoup(href)) 
+            writer.writerow(information.split(','))
+
+            print(information)
+        except NonValide as e:
+            print(e)
