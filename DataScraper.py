@@ -100,8 +100,7 @@ def informations(soup):
     except NonValide as e:
         raise e
 
-def getInformationOflink(list, link):
-    soup = getsoup(link)
+def getInformationsOfLinks(writer, soup):
 
     detailsContainers = soup.find_all('div', class_='product-details-container')
 
@@ -112,7 +111,7 @@ def getInformationOflink(list, link):
             href = "https://www.immo-entre-particuliers.com/" + href
         try:
             information = informations(getsoup(href)) 
-            list.append(information.split(','))
+            writer.writerow(information.split(','))
 
             print(information)
         except NonValide as e:
@@ -123,22 +122,19 @@ def scrapLink(link):
     npage = 1    
     flagend = False
     headers = ["Ville","Type","Surface","Nbr de pieces","Nbr de chambres","Nbr de salle de bains","DPE","Prix"]
-    scrappedDatasList = [headers]
-
-    while (not flagend):
-        print()
-        print(f"Page: {npage}")
-        print()
-        soup = getsoup(link+f"/{npage}")
-        getInformationOflink(scrappedDatasList, link+f"/{npage}")
-
-        npage += 1
-
-        if soup.find('li', class_="next disabled") != None:
-            flagend = True
 
     with open('data.csv', 'w+', newline='') as file:
         writer = csv.writer(file)
-        writer.writerows(scrappedDatasList)
+        writer.writerow(headers)
 
-scrapLink("https://www.immo-entre-particuliers.com/annonces/france-ile-de-france/vente/ta-offer")
+        while (not flagend):
+            print()
+            print(f"Page: {npage}")
+            print()
+            soup = getsoup(link+f"/{npage}")
+            getInformationsOfLinks(writer, soup)
+
+            npage += 1
+
+            if soup.find('li', class_="next disabled") != None:
+                flagend = True
