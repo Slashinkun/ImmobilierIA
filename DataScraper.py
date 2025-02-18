@@ -90,7 +90,10 @@ def nbrsdb(soup):
 def dpe(soup):
     try:
         blocCaracteres = __caracteristiques__(soup)
-        return blocCaracteres.find(string="Consommation d'énergie (DPE)").parent.next_sibling.text[0]
+        dpe = blocCaracteres.find(string="Consommation d'énergie (DPE)").parent.next_sibling.text[0]
+        if (dpe == "V"):
+            dpe = "-"
+        return dpe
     except AttributeError:
         return "-"
     
