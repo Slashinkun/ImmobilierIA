@@ -1,423 +1,423 @@
 Ville,Type,Surface,Nbr de pieces,Nbr de chambres,Nbr de salle de bains,DPE,Prix
-Mantes-la-Jolie,Appartement,30,1,1,1,E,134500
-La Ville-du-Bois,Maison,122,5,3,1,D,270000
-Limeil-Brévannes,Maison,121,5,3,1,D,455000
-Morsang-sur-Orge,Maison,118,6,3,2,D,385000
-Guerville,Maison,120,5,3,1,E,265000
-Bussy-Saint-Georges,Appartement,28,2,1,-,D,165300
-Paris 10ème,Appartement,19,1,1,-,F,212000
-Neuilly-sur-Marne,Appartement,90,4,3,1,C,275000
-La Garenne-Colombes,Appartement,77,3,2,1,F,500000
-Mennecy,Maison,161,7,5,2,D,529000
-Sartrouville,Maison,125,6,4,1,E,595000
-Paris 14ème,Appartement,31,2,1,-,V,393400
-Paris 8ème,Appartement,40,2,1,-,-,550000
-Ris-Orangis,Appartement,101,4,3,1,D,230000
-Paris 15ème,Maison,169,9,5,1,C,268000
-Stains,Appartement,64,3,2,1,-,170000
-Paris 13ème,Appartement,20,1,1,1,F,195000
-Le Chesnay,Appartement,44,1,1,1,D,233000
-Paris 17ème,Appartement,50,2,1,-,E,420000
-Éragny,Maison,120,7,5,1,D,489000
-Claye-Souilly,Maison,93,4,3,1,-,309000
-Hardricourt,Maison,143,6,5,-,D,320000
-Montmorency,Maison,60,3,2,1,-,285000
-Argenteuil,Appartement,70,3,2,1,E,160000
-Paris 1er,Appartement,52,2,1,1,-,140000
-Rampillon,Maison,138,5,3,1,C,220000
-Corbeil-Essonnes,Maison,93,5,4,1,C,239000
-Étréchy,Maison,83,5,4,-,E,385000
-Paris 18ème,Appartement,71,3,2,1,C,575000
-Rueil-Malmaison,Appartement,57,3,2,1,-,329000
-Paris 1er,Appartement,1,3,2,-,-,100000
-Neuilly-sur-Seine,Appartement,60,2,1,-,D,689000
-Saint-Denis,Appartement,56,3,2,1,E,230000
-Bondy,Appartement,26,1,-,1,E,129900
-Paris 15ème,Appartement,75,3,2,1,D,475000
-Saint-Michel-sur-Orge,Appartement,82,3,2,1,C,168000
-La Celle-Saint-Cloud,Appartement,85,5,3,1,-,370000
-Noisy-le-Grand,Maison,180,6,5,-,D,525000
-Boulogne-Billancourt,Appartement,90,4,3,1,E,700000
-Paris 10ème,Appartement,13,1,1,-,E,149000
-Villebon-sur-Yvette,Appartement,16,1,1,-,E,80000
-Paris 15ème,Appartement,30,1,1,1,V,270000
-Joinville-le-Pont,Appartement,67,3,1,1,-,650000
-Paris 10ème,Appartement,13,1,1,-,D,149000
-Chaumontel,Maison,101,6,4,-,D,379000
-Les Mureaux,Appartement,84,5,3,-,C,165000
-Rosny-sous-Bois,Appartement,68,3,2,1,E,237900
-Longjumeau,Appartement,74,4,3,-,D,199900
-Le Chesnay,Maison,150,7,5,1,C,1320000
-Colombes,Appartement,38,2,1,1,V,220000
-Vélizy-Villacoublay,Appartement,46,2,1,-,B,259000
-Ris-Orangis,Appartement,72,3,2,1,D,143000
-Le Pré-Saint-Gervais,Appartement,18,1,-,-,E,155000
-Ormesson-sur-Marne,Appartement,79,4,2,1,D,292000
-Rosny-sous-Bois,Appartement,40,2,1,1,-,249000
-Donnemarie-Dontilly,Maison,120,5,4,1,E,151000
-Donnemarie-Dontilly,Maison,73,3,2,1,C,131000
-Franconville,Maison,106,5,4,1,F,410000
-Paris 9ème,Appartement,95,4,2,1,D,1315000
-Le Blanc-Mesnil,Maison,141,6,4,1,C,460000
-Sainte-Geneviève-des-Bois,Maison,82,4,3,1,B,310000
-Mennecy,Maison,110,5,4,1,E,398000
-Étiolles,Appartement,55,2,1,-,D,216000
-Paris 4ème,Appartement,31,1,-,1,F,440000
-Villeneuve-Saint-Georges,Appartement,55,2,1,-,C,130000
-Taverny,Maison,81,5,3,1,-,425000
-L'Haÿ-les-Roses,Maison,156,7,5,1,D,599000
-Saint-Maur-des-Fossés,Appartement,62,3,2,1,E,365000
-Paris 6ème,Appartement,90,4,1,1,D,1600000
-Conflans-Sainte-Honorine,Maison,137,6,4,2,A,515000
-Lardy,Maison,82,5,3,1,C,335000
-Rambouillet,Appartement,32,2,1,1,F,89700
-Rambouillet,Appartement,48,1,1,1,E,130000
-Rambouillet,Appartement,30,2,1,1,E,150000
-Paris 1er,Appartement,19,1,1,1,F,270000
-Paris 15ème,Appartement,50,2,1,-,F,595000
-Varennes-sur-Seine,Maison,82,5,3,1,-,225000
-Colombes,Maison,90,5,3,1,F,395000
-Paris 15ème,Appartement,33,1,1,1,E,334900
-Paris 12ème,Appartement,25,1,1,1,E,235000
-Nanterre,Appartement,69,3,2,-,D,360000
-Champigny-sur-Marne,Appartement,74,4,3,1,C,230000
-Condécourt,Maison,140,5,4,1,F,445000
-Paris 13ème,Appartement,28,2,1,-,E,380000
-Nemours,Maison,250,6,4,1,D,349000
-Émerainville,Appartement,32,1,-,1,-,165000
-Quincy-Voisins,Maison,190,7,5,1,D,380000
-Paris 20ème,Appartement,67,3,2,-,D,635000
-Trilport,Maison,150,6,4,1,D,424000
-Le Pecq,Appartement,56,2,1,-,E,299500
-Paris 10ème,Appartement,80,4,3,1,-,65000
-Paris 10ème,Appartement,80,4,3,1,-,65000
-Marly-le-Roi,Appartement,48,2,1,1,-,229000
-Montévrain,Appartement,76,3,2,1,-,380000
-Nanterre,Appartement,69,3,2,2,-,375000
-Sailly,Maison,105,5,3,1,-,333500
-Paris 4ème,Appartement,180,4,2,3,-,3500000
-Paris 10ème,Maison,350,2,4,2,-,570000
-Villejuif,Appartement,67,3,2,1,-,365000
-Paris 1er,Maison,104,10,3,1,-,250000
-Paris 1er,Appartement,110,8,3,2,-,279000
-Paris 1er,Maison,141,8,3,3,-,349000
-Paris 1er,Maison,284,10,4,4,-,780000
-Paris 1er,Maison,179,6,3,3,-,565000
-Paris 1er,Maison,358,8,4,3,-,635000
-Paris 1er,Maison,322,10,4,4,-,690000
-Éragny,Maison,105,5,4,2,-,326000
-Paris 1er,Maison,285,10,4,2,-,780000
-Paris 10ème,Appartement,34,2,1,1,-,355000
-Soindres,Appartement,40,2,1,1,-,135000
-Paris 13ème,Appartement,45,2,1,1,-,525000
-Vaux-le-Pénil,Appartement,58,3,2,1,-,166000
-Saclay,Appartement,65,5,2,1,-,300000
-Paris 11ème,Appartement,15,4,1,1,-,129000
-Paris 19ème,Appartement,74,4,3,1,-,720000
-Tacoignières,Maison,90,3,1,1,-,295000
-Noisy-le-Grand,Appartement,82,4,3,1,-,275000
-Paris 16ème,Maison,120,6,5,1,-,98000
-Bourg-la-Reine,Appartement,140,4,3,1,-,1000000
-Clichy-sous-Bois,Appartement,40,1,1,1,-,187000
-Sancy-lès-Provins,Maison,90,5,3,2,-,159000
-Sceaux,Appartement,93,5,3,2,-,689000
-Draveil,Appartement,50,2,1,1,-,150000
-Villiers-le-Mahieu,Maison,192,8,4,2,-,495000
-Paris 16ème,Appartement,138,4,4,4,-,20000
-Saint-Martin-la-Garenne,Maison,160,7,3,2,-,310000
-Paris 16ème,Appartement,32,2,1,1,-,27500
-Paris 15ème,Appartement,89,3,2,1,-,139000
-Margency,Maison,115,7,3,2,-,235000
-Le Mée-sur-Seine,Maison,95,5,3,1,-,220000
-Aulnay-sous-Bois,Maison,93,4,3,1,-,255000
-Paris 6ème,Maison,500,5,4,4,-,250000
-Paris 18ème,Appartement,38,38,1,1,-,240000
-Issy-les-Moulineaux,Appartement,137,5,4,2,-,849000
-Versailles,Appartement,54,3,3,1,-,273000
-Saclay,Maison,145,5,3,2,-,379000
-Paris 16ème,Appartement,90,3,2,2,-,95454
-Rosny-sous-Bois,Appartement,44,2,1,1,-,178000
-Paris 8ème,Maison,500,1,1,1,-,1000000
-Ablon-sur-Seine,Maison,150,6,3,3,-,455000
-Bezons,Appartement,55,3,2,1,-,225000
-Le Mesnil-le-Roi,Appartement,33,2,1,1,-,125000
-Villeparisis,Appartement,42,2,1,1,-,135000
-Morsang-sur-Orge,Maison,120,5,3,2,-,359000
-Paris 9ème,Maison,140,7,3,1,-,130000
-Livry-Gargan,Appartement,54,54,2,1,-,160000
-Sevran,Appartement,72,72,3,1,-,155000
-Saints,Maison,218,8,5,3,-,443000
-Sancy-lès-Provins,Appartement,61,3,2,1,-,107000
-Paris 9ème,Appartement,93,3,2,2,-,550000
-Sancy-lès-Provins,Maison,240,8,3,1,-,198000
-Montlhéry,Appartement,40,2,1,1,-,139000
-Saint-Léger-en-Yvelines,Appartement,67,3,2,1,-,241500
-Vaux-le-Pénil,Appartement,81,4,3,1,-,219000
-Aulnay-sous-Bois,Appartement,44,2,1,1,-,89000
-Paris 10ème,Appartement,500,-,-,-,-,800000
-Paris 10ème,Appartement,500,-,-,-,-,150000
-Asnières-sur-Seine,Appartement,45,2,1,1,-,225000
-Asnières-sur-Seine,Appartement,45,2,1,1,-,229000
-Pecqueuse,Maison,100,6,4,-,-,98000
-Ris-Orangis,Maison,96,6,4,2,-,255000
-Le Perreux-sur-Marne,Appartement,50,2,1,1,-,215000
-Champigny-sur-Marne,Appartement,72,4,2,1,-,197000
-Paris 18ème,Appartement,100,4,3,2,-,49000
-Paris 11ème,Appartement,60,3,2,1,-,550000
-Sancy-lès-Provins,Maison,70,4,2,1,-,144000
-Paris 10ème,Appartement,20,1,1,1,-,83000
-La Frette-sur-Seine,Maison,86,5,3,1,-,325000
-Verneuil-sur-Seine,Appartement,63,4,3,1,-,179500
-Ris-Orangis,Appartement,52,2,1,1,-,128000
-Saulx-les-Chartreux,Maison,120,6,4,1,-,356000
-Chevilly-Larue,Appartement,34,1,-,1,-,134900
-Vaugrigneuse,Maison,150,5,4,2,-,525000
-Asnières-sur-Seine,Appartement,59,3,2,1,-,275000
-Villeneuve-le-Roi,Appartement,44,3,2,1,-,164000
-Yèbles,Maison,180,7,5,4,-,380000
-Viry-Châtillon,Appartement,77,4,2,1,-,169000
-La Courneuve,Maison,80,4,3,1,-,298000
-Asnières-sur-Seine,Appartement,64,3,2,1,-,382000
-Soindres,Maison,100,3,2,1,-,235000
-Chevilly-Larue,Appartement,85,4,3,1,-,256000
-Paris 1er,Appartement,67,2,1,1,-,835000
-Nesles-la-Vallée,Maison,220,7,5,3,-,499000
-Vaux-le-Pénil,Maison,160,6,4,2,-,329000
-Le Raincy,Appartement,69,4,2,1,-,260000
-Le Raincy,Appartement,64,3,2,1,-,194000
-Nanterre,Appartement,65,3,2,1,-,345000
-Montfermeil,Maison,200,8,6,2,-,476000
-Paris 10ème,Appartement,130,5,3,-,-,150000
-Paris 10ème,Appartement,130,5,3,-,-,150000
-L'Haÿ-les-Roses,Appartement,73,4,2,1,-,225000
-Évry,Appartement,31,1,-,1,-,117000
-Thiais,Appartement,90,5,3,1,-,233000
-Paris 20ème,Appartement,73,4,3,1,-,577000
-Taverny,Appartement,46,2,1,1,-,165000
-Bagneux,Appartement,74,3,2,1,-,265000
-Sevran,Appartement,52,3,2,1,-,160000
-Évry,Appartement,24,1,-,1,-,115000
-Drancy,Appartement,318,-,-,-,-,900000
-Épinay-sur-Seine,Appartement,69,4,3,1,-,158000
-Viry-Châtillon,Appartement,76,4,3,1,-,259000
-Vieux-Champagne,Maison,100,4,2,1,-,240000
-Paris 8ème,Appartement,106,3,-,-,-,75008
-Nanterre,Appartement,84,5,3,1,-,334000
-Villiers-le-Bel,Appartement,38,2,-,-,-,154000
-Villiers-le-Bel,Appartement,33,1,-,-,-,149000
-Périgny,Maison,120,6,5,1,-,345000
-Vincennes,Appartement,79,3,2,1,-,740000
-Vinantes,Maison,80,4,3,1,-,240000
-Pontoise,Maison,60,4,-,-,-,199000
-Paris 8ème,Appartement,40,2,1,1,-,660000
-Aubervilliers,Appartement,36,2,1,1,-,119000
-Paris 18ème,Appartement,100,100,4,1,-,685000
-Paris 18ème,Appartement,100,100,4,1,-,685000
-Mours,Maison,137,6,4,3,-,337000
-Serris,Appartement,65,3,2,1,-,235000
-La Courneuve,Appartement,35,35,2,1,-,135000
-Villejust,Appartement,72,4,2,1,-,239000
-Brou-sur-Chantereine,Appartement,76,4,3,1,-,189000
-Vitry-sur-Seine,Appartement,53,3,2,1,-,185000
-Vitry-sur-Seine,Appartement,53,3,2,1,-,185000
-Saint-Ouen-en-Brie,Maison,50,2,1,1,-,135000
-Puteaux,Appartement,40,2,2,1,-,280000
-Rosny-sous-Bois,Maison,134,5,3,2,-,450000
-Rosny-sous-Bois,Appartement,101,5,3,2,-,307000
-Grisy-Suisnes,Appartement,55,55,2,1,-,155000
-Asnières-sur-Seine,Appartement,101,5,4,1,-,405000
-Sevran,Appartement,-,1,-,-,-,68000
-Sevran,Appartement,-,1,-,-,-,68000
-Paris 15ème,Maison,264,7,5,3,-,320000
-Saulx-les-Chartreux,Appartement,45,2,1,1,-,170000
-Romainville,Maison,160,160,13,8,-,550000
-Romainville,Maison,160,160,13,8,-,550000
-Paris 20ème,Maison,45,4,3,1,-,22878
-Paris 8ème,Maison,405,5,1,1,-,70000
-Vanves,Appartement,22,2,1,1,-,140000
-Roinvilliers,Maison,100,5,4,-,-,254400
-Paris 16ème,Appartement,70,3,-,1,-,155150
-Paris 6ème,Appartement,70,3,-,1,-,155150
-Villemoisson-sur-Orge,Maison,129,6,4,2,-,310000
-Stains,Appartement,80,5,3,1,-,250000
-Paris 19ème,Appartement,61,3,2,1,-,510000
-Paris 19ème,Appartement,61,3,2,1,-,510000
-Montigny-lès-Cormeilles,Appartement,71,3,2,1,-,169000
-Bezons,Maison,260,7,4,2,-,890000
-Garges-lès-Gonesse,Appartement,58,3,2,1,-,140000
-Paris 15ème,Appartement,35,2,1,1,-,320000
-Paris 12ème,Appartement,65,2,1,1,-,520000
-Paris 10ème,Appartement,52,3,2,1,-,260000
-Pierrefitte-sur-Seine,Maison,93,6,4,2,-,300000
-Villiers-Saint-Frédéric,Appartement,34,2,1,1,-,165000
-La Roche-Guyon,Maison,110,5,4,1,-,260000
-Courdimanche,Maison,85,4,3,1,-,275000
-Villemoisson-sur-Orge,Maison,130,6,4,2,-,340000
-Paris 10ème,Maison,405,9,2,2,-,90000
-Menucourt,Appartement,67,3,2,1,-,190000
-Sevran,Appartement,65,3,2,1,-,130000
-Le Mesnil-le-Roi,Appartement,74,4,2,1,-,380000
-Clichy,Appartement,30,2,1,1,-,178000
-Torfou,Appartement,30,2,1,1,-,97000
-Montmagny,Appartement,48,3,2,1,-,157000
-Montmagny,Appartement,48,3,2,1,-,157000
-Deuil-la-Barre,Appartement,77,3,2,1,-,260000
-Fontainebleau,Appartement,90,4,2,1,-,290000
-Clamart,Appartement,28,2,1,1,-,160000
-Le Mesnil-le-Roi,Appartement,16,1,-,1,-,80000
-Alfortville,Appartement,21,1,1,1,-,95000
-Villemer,Maison,140,6,5,1,-,315000
-Villeneuve-sur-Bellot,Maison,-,3,2,-,-,73000
-Villeneuve-sur-Bellot,Maison,-,3,2,-,-,48000
-Villeneuve-sur-Bellot,Maison,-,3,2,1,-,68000
-Périgny,Maison,78,4,2,2,-,209000
-Villeneuve-sur-Bellot,Maison,-,6,4,1,-,220000
-Draveil,Maison,250,11,-,-,-,495000
-Vinantes,Maison,118,7,5,2,-,138000
-Yèbles,Maison,100,4,3,1,-,295000
-Vieux-Champagne,Maison,100,5,3,1,-,163000
-Grigny,Appartement,70,4,2,1,-,120000
-Pontoise,Maison,122,6,4,2,-,450000
-Servon,Appartement,63,3,2,1,-,168000
-Servon,Appartement,63,3,2,1,-,168000
-Servon,Appartement,63,3,2,1,-,168000
-Servon,Appartement,63,3,2,1,-,168000
-Évry,Maison,90,5,3,1,-,270000
-Aulnay-sous-Bois,Appartement,27,2,1,1,-,115000
-Choisy-le-Roi,Appartement,32,3,1,1,-,140000
-Champigny-sur-Marne,Maison,148,5,3,2,-,395000
-Paris 12ème,Appartement,50,2,1,1,-,420000
-Champigny-sur-Marne,Maison,170,9,5,2,-,670000
-Créteil,Appartement,74,3,2,1,-,289000
-Deuil-la-Barre,Appartement,67,3,2,1,-,185000
-Vaux-le-Pénil,Appartement,21,1,1,1,-,77000
-Paris 10ème,Maison,100,3,2,2,-,149000
-Paris 10ème,Maison,100,3,2,2,-,149000
-Yerres,Appartement,64,3,2,1,-,210000
-Paris 10ème,Maison,100,3,2,2,-,149000
-Champigny-sur-Marne,Appartement,70,3,2,1,-,172000
-Paris 20ème,Appartement,34,1,1,1,-,225000
-Ville-Saint-Jacques,Maison,30,2,2,1,-,28900
-Paris 1er,Appartement,70,3,2,1,-,85000
-Paris 10ème,Maison,100,3,2,2,-,149000
-La Queue-les-Yvelines,Appartement,31,-,-,1,-,158000
-Paris 10ème,Appartement,48,2,1,1,-,315000
-Paris 10ème,Maison,45,2,1,1,-,35000
-Paris 10ème,Maison,100,3,2,2,-,149000
-Paris 10ème,Maison,100,3,2,2,-,149000
-Paris 3ème,Appartement,105,4,3,-,-,250000
-Pierrelaye,Appartement,65,3,2,1,-,240000
-Fontainebleau,Appartement,67,4,3,1,-,210000
-Réau,Appartement,60,3,2,1,-,215000
-Le Tertre-Saint-Denis,Maison,35,-,2,-,-,56000
-Pierrelaye,Appartement,65,3,2,1,-,240000
-Vulaines-lès-Provins,Maison,50,3,2,-,-,75000
-Villenoy,Maison,86,4,3,1,-,250000
-Argenteuil,Maison,62,3,2,1,-,320000
-Courcouronnes,Appartement,50,3,1,1,-,150000
-Savigny-le-Temple,Appartement,45,2,1,1,-,149500
-Souppes-sur-Loing,Maison,350,16,8,8,-,380000
-Neufmoutiers-en-Brie,Appartement,50,3,-,1,-,160000
-Montgeron,Maison,434,7,6,2,-,440000
-Vitry-sur-Seine,Maison,110,5,3,1,-,450000
-Paris 13ème,Appartement,104,3,2,2,-,1030000
-Thiais,Maison,90,5,3,1,-,360000
-Sucy-en-Brie,Appartement,70,4,3,1,-,180000
-Lisses,Maison,121,6,4,2,-,370000
-Paris 18ème,Appartement,60,60,2,1,-,380000
-Neufmoutiers-en-Brie,Maison,145,4,-,-,-,207000
-Neufmoutiers-en-Brie,Maison,67,2,-,-,-,140000
-Sannois,Appartement,217,4,4,2,-,70000
-Paris 8ème,Appartement,-,2,1,-,-,85000
-Oncy-sur-École,Maison,114,5,4,2,-,280000
-Paris 17ème,Appartement,40,3,2,2,-,160000
-Vaux-le-Pénil,Appartement,94,5,3,1,-,220000
-Pontoise,Appartement,73,3,2,1,-,220000
-Samoreau,Maison,50,2,1,1,-,160000
-Paris 18ème,Appartement,110,3,2,2,-,820000
-Puiseux-Pontoise,Appartement,110,5,3,2,-,320000
-Vaux-le-Pénil,Maison,200,6,3,1,-,110000
-Épinay-sur-Seine,Appartement,66,3,2,1,-,190000
-Le Bourget,Maison,100,4,3,2,-,370000
-Évry,Appartement,45,2,1,1,-,120000
-Champagne-sur-Seine,Maison,80,4,2,1,-,260000
-Villeneuve-sur-Bellot,Maison,200,4,2,1,-,140000
-Drancy,Appartement,43,2,1,1,-,158000
-Sarcelles,Appartement,25,1,1,1,-,86000
-Antony,Maison,70,3,1,1,-,460000
-Paris 10ème,Maison,250,-,-,-,-,150000
-Aubervilliers,Maison,221,4,3,1,-,498000
-Grigny,Appartement,75,2,3,1,-,115000
-Chelles,Appartement,88,5,3,1,-,190000
-Chaville,Appartement,58,3,2,1,-,258000
-Ozoir-la-Ferrière,Maison,160,6,4,2,-,445000
-Pontault-Combault,Maison,109,5,3,1,-,333000
-Chelles,Maison,105,6,4,1,-,272000
-Montmorency,Appartement,79,4,2,1,-,235000
-Voulangis,Maison,88,4,2,2,-,50000
-Solers,Maison,96,5,4,2,-,295000
-Saint-Escobille,Appartement,39,2,1,1,-,145000
-Villiers-en-Bière,Appartement,73,4,3,1,-,145000
-Le Mée-sur-Seine,Appartement,110,6,3,1,-,150000
-Paris 20ème,Appartement,108,4,2,1,-,540000
-Servon,Appartement,77,4,3,1,-,206000
-Paris 1er,Maison,91,91,3,1,-,32300
-Montigny-lès-Cormeilles,Appartement,47,2,1,1,-,175000
-Créteil,Appartement,114,6,3,1,-,240000
-Sarcelles,Appartement,85,5,4,1,-,195000
-Livry-Gargan,Appartement,50,3,2,1,-,150000
-Vulaines-lès-Provins,Maison,118,5,4,2,-,245000
-Le Mesnil-le-Roi,Appartement,80,4,2,1,-,369000
-Bobigny,Appartement,84,4,3,1,-,269000
-Clichy-sous-Bois,Appartement,56,3,2,1,-,120000
-Clichy,Appartement,65,3,2,1,-,100000
-Clichy,Appartement,65,3,3,1,-,100000
-Voulangis,Maison,100,5,3,1,-,280000
-Versailles,Appartement,23,1,1,1,-,140000
-Grigny,Appartement,70,4,2,1,-,180000
-Neufmoutiers-en-Brie,Maison,100,4,3,1,-,255000
-Montfermeil,Maison,130,5,3,2,-,375000
-Rosny-sous-Bois,Maison,500,13,7,6,-,1707000
-Paris 11ème,Appartement,121,5,4,1,-,780000
-Sancy-lès-Provins,Maison,180,8,4,2,-,265000
-Sevran,Appartement,30,1,-,1,-,72000
-Vémars,Appartement,68,4,3,1,-,155000
-Clichy,Appartement,48,2,1,1,-,215000
-Émerainville,Maison,90,4,3,1,-,245000
-Aulnay-sous-Bois,Appartement,15,1,-,1,-,64000
-Roissy-en-Brie,Maison,93,5,3,1,-,235000
-Roissy-en-Brie,Maison,93,5,3,1,-,235000
-Bobigny,Appartement,59,3,2,1,-,189000
-Fontenay-le-Fleury,Appartement,55,2,1,1,-,160000
-Gournay-sur-Marne,Maison,100,5,3,2,-,350000
-Angerville,Maison,50,3,2,1,-,22000
-Montigny-sur-Loing,Maison,135,8,5,1,-,350000
-Savigny-le-Temple,Maison,145,6,4,2,-,262000
-Vendrest,Maison,93,4,3,1,-,240000
-Vaux-le-Pénil,Maison,70,4,2,1,-,130000
-Créteil,Appartement,77,3,3,1,-,250000
-Gagny,Maison,84,5,4,1,-,280000
-Pontoise,Maison,75,5,3,1,-,255000
-Ecquevilly,Appartement,56,2,1,1,-,170000
-Paris 1er,Appartement,12,1,-,1,-,147000
-Paris 13ème,Appartement,9,-,-,-,-,89000
-Pontault-Combault,Appartement,55,2,1,1,-,181000
-Montmagny,Maison,174,6,3,2,-,410000
-Choisy-le-Roi,Appartement,82,4,3,1,-,249000
-Plaisir,Appartement,60,3,2,1,-,195000
-Paris 18ème,Appartement,80,3,2,1,-,390000
-Aulnay-sous-Bois,Appartement,96,4,3,2,-,178000
-Clamart,Appartement,28,2,1,1,-,138000
-Écouen,Appartement,45,2,1,1,-,135000
-Parmain,Maison,110,5,4,1,-,220000
-Argenteuil,Appartement,122,4,2,1,-,375000
-Saints,Maison,95,5,3,1,-,228000
-Limeil-Brévannes,Appartement,90,5,3,1,-,210000
-Colombes,Maison,90,4,3,1,-,500000
-Ville-Saint-Jacques,Maison,54,3,2,1,-,25000
-Courbevoie,Appartement,47,2,1,1,-,190000
-Nogent-sur-Marne,Appartement,76,4,3,1,-,280000
-Chelles,Maison,150,-,4,2,-,200000
-Sarcelles,Maison,-,5,3,2,-,345000
-Pontoise,Appartement,131,6,5,2,-,250000
-Vigneux-sur-Seine,Appartement,50,2,1,1,-,126000
+morangis,Maison,160,7,4,2,C,380000
+mantes la jolie,Appartement,30,1,1,1,E,134500
+la ville du bois,Maison,122,5,3,1,D,270000
+limeil brevannes,Maison,121,5,3,1,D,455000
+morsang sur orge,Maison,118,6,3,2,D,385000
+bussy st georges,Appartement,28,2,1,-,D,165300
+paris 10,Appartement,19,1,1,-,F,212000
+neuilly sur marne,Appartement,90,4,3,1,C,275000
+la garenne colombes,Appartement,77,3,2,1,F,500000
+mennecy,Maison,161,7,5,2,D,529000
+sartrouville,Maison,125,6,4,1,E,595000
+paris 14,Appartement,31,2,1,-,-,393400
+paris 8,Appartement,40,2,1,-,-,550000
+ris orangis,Appartement,101,4,3,1,D,230000
+paris 15,Maison,169,9,5,1,C,268000
+stains,Appartement,64,3,2,1,-,170000
+paris 13,Appartement,20,1,1,1,F,195000
+le chesnay,Appartement,44,1,1,1,D,233000
+paris 17,Appartement,50,2,1,-,E,420000
+eragny,Maison,120,7,5,1,D,489000
+claye souilly,Maison,93,4,3,1,-,309000
+hardricourt,Maison,143,6,5,-,D,320000
+montmorency,Maison,60,3,2,1,-,285000
+argenteuil,Appartement,70,3,2,1,E,160000
+paris 1,Appartement,52,2,1,1,-,140000
+rampillon,Maison,138,5,3,1,C,220000
+corbeil essonnes,Maison,93,5,4,1,C,239000
+etrechy,Maison,83,5,4,-,E,385000
+paris 18,Appartement,71,3,2,1,C,575000
+rueil malmaison,Appartement,57,3,2,1,-,329000
+paris 1,Appartement,1,3,2,-,-,100000
+neuilly sur seine,Appartement,60,2,1,-,D,689000
+st denis,Appartement,56,3,2,1,E,230000
+bondy,Appartement,26,1,-,1,E,129900
+paris 15,Appartement,75,3,2,1,D,475000
+st michel sur orge,Appartement,82,3,2,1,C,168000
+la celle st cloud,Appartement,85,5,3,1,-,370000
+noisy le grand,Maison,180,6,5,-,D,525000
+boulogne billancourt,Appartement,90,4,3,1,E,700000
+paris 10,Appartement,13,1,1,-,E,149000
+villebon sur yvette,Appartement,16,1,1,-,E,80000
+paris 15,Appartement,30,1,1,1,-,270000
+joinville le pont,Appartement,67,3,1,1,-,650000
+paris 10,Appartement,13,1,1,-,D,149000
+chaumontel,Maison,101,6,4,-,D,379000
+les mureaux,Appartement,84,5,3,-,C,165000
+rosny sous bois,Appartement,68,3,2,1,E,237900
+longjumeau,Appartement,74,4,3,-,D,199900
+le chesnay,Maison,150,7,5,1,C,1320000
+colombes,Appartement,38,2,1,1,-,220000
+velizy villacoublay,Appartement,46,2,1,-,B,259000
+ris orangis,Appartement,72,3,2,1,D,143000
+le pre st gervais,Appartement,18,1,-,-,E,155000
+ormesson sur marne,Appartement,79,4,2,1,D,292000
+rosny sous bois,Appartement,40,2,1,1,-,249000
+donnemarie dontilly,Maison,120,5,4,1,E,151000
+donnemarie dontilly,Maison,73,3,2,1,C,131000
+franconville,Maison,106,5,4,1,F,410000
+paris 9,Appartement,95,4,2,1,D,1315000
+le blanc mesnil,Maison,141,6,4,1,C,460000
+ste genevieve des bois,Maison,82,4,3,1,B,310000
+mennecy,Maison,110,5,4,1,E,398000
+etiolles,Appartement,55,2,1,-,D,216000
+paris 4,Appartement,31,1,-,1,F,440000
+villeneuve st georges,Appartement,55,2,1,-,C,130000
+taverny,Maison,81,5,3,1,-,425000
+l hay les roses,Maison,156,7,5,1,D,599000
+st maur des fosses,Appartement,62,3,2,1,E,365000
+paris 6,Appartement,90,4,1,1,D,1600000
+conflans ste honorine,Maison,137,6,4,2,A,515000
+lardy,Maison,82,5,3,1,C,335000
+rambouillet,Appartement,32,2,1,1,F,89700
+rambouillet,Appartement,48,1,1,1,E,130000
+rambouillet,Appartement,30,2,1,1,E,150000
+paris 1,Appartement,19,1,1,1,F,270000
+paris 15,Appartement,50,2,1,-,F,595000
+varennes sur seine,Maison,82,5,3,1,-,225000
+colombes,Maison,90,5,3,1,F,395000
+paris 15,Appartement,33,1,1,1,E,334900
+paris 12,Appartement,25,1,1,1,E,235000
+nanterre,Appartement,69,3,2,-,D,360000
+champigny sur marne,Appartement,74,4,3,1,C,230000
+condecourt,Maison,140,5,4,1,F,445000
+paris 13,Appartement,28,2,1,-,E,380000
+nemours,Maison,250,6,4,1,D,349000
+emerainville,Appartement,32,1,-,1,-,165000
+quincy voisins,Maison,190,7,5,1,D,380000
+paris 20,Appartement,67,3,2,-,D,635000
+trilport,Maison,150,6,4,1,D,424000
+le pecq,Appartement,56,2,1,-,E,299500
+paris 10,Appartement,80,4,3,1,-,65000
+paris 10,Appartement,80,4,3,1,-,65000
+marly le roi,Appartement,48,2,1,1,-,229000
+montevrain,Appartement,76,3,2,1,-,380000
+nanterre,Appartement,69,3,2,2,-,375000
+sailly,Maison,105,5,3,1,-,333500
+paris 4,Appartement,180,4,2,3,-,3500000
+paris 10,Maison,350,2,4,2,-,570000
+villejuif,Appartement,67,3,2,1,-,365000
+paris 1,Maison,104,10,3,1,-,250000
+paris 1,Appartement,110,8,3,2,-,279000
+paris 1,Maison,141,8,3,3,-,349000
+paris 1,Maison,284,10,4,4,-,780000
+paris 1,Maison,179,6,3,3,-,565000
+paris 1,Maison,358,8,4,3,-,635000
+paris 1,Maison,322,10,4,4,-,690000
+eragny,Maison,105,5,4,2,-,326000
+paris 1,Maison,285,10,4,2,-,780000
+paris 10,Appartement,34,2,1,1,-,355000
+soindres,Appartement,40,2,1,1,-,135000
+paris 13,Appartement,45,2,1,1,-,525000
+vaux le penil,Appartement,58,3,2,1,-,166000
+saclay,Appartement,65,5,2,1,-,300000
+paris 11,Appartement,15,4,1,1,-,129000
+paris 19,Appartement,74,4,3,1,-,720000
+tacoignieres,Maison,90,3,1,1,-,295000
+noisy le grand,Appartement,82,4,3,1,-,275000
+paris 16,Maison,120,6,5,1,-,98000
+bourg la reine,Appartement,140,4,3,1,-,1000000
+clichy sous bois,Appartement,40,1,1,1,-,187000
+sancy les provins,Maison,90,5,3,2,-,159000
+sceaux,Appartement,93,5,3,2,-,689000
+draveil,Appartement,50,2,1,1,-,150000
+villiers le mahieu,Maison,192,8,4,2,-,495000
+paris 16,Appartement,138,4,4,4,-,20000
+st martin la garenne,Maison,160,7,3,2,-,310000
+paris 16,Appartement,32,2,1,1,-,27500
+paris 15,Appartement,89,3,2,1,-,139000
+margency,Maison,115,7,3,2,-,235000
+le mee sur seine,Maison,95,5,3,1,-,220000
+aulnay sous bois,Maison,93,4,3,1,-,255000
+paris 6,Maison,500,5,4,4,-,250000
+paris 18,Appartement,38,38,1,1,-,240000
+issy les moulineaux,Appartement,137,5,4,2,-,849000
+versailles,Appartement,54,3,3,1,-,273000
+saclay,Maison,145,5,3,2,-,379000
+paris 16,Appartement,90,3,2,2,-,95454
+rosny sous bois,Appartement,44,2,1,1,-,178000
+paris 8,Maison,500,1,1,1,-,1000000
+ablon sur seine,Maison,150,6,3,3,-,455000
+bezons,Appartement,55,3,2,1,-,225000
+le mesnil le roi,Appartement,33,2,1,1,-,125000
+villeparisis,Appartement,42,2,1,1,-,135000
+morsang sur orge,Maison,120,5,3,2,-,359000
+paris 9,Maison,140,7,3,1,-,130000
+livry gargan,Appartement,54,54,2,1,-,160000
+sevran,Appartement,72,72,3,1,-,155000
+sts,Maison,218,8,5,3,-,443000
+sancy les provins,Appartement,61,3,2,1,-,107000
+paris 9,Appartement,93,3,2,2,-,550000
+sancy les provins,Maison,240,8,3,1,-,198000
+montlhery,Appartement,40,2,1,1,-,139000
+st leger en yvelines,Appartement,67,3,2,1,-,241500
+vaux le penil,Appartement,81,4,3,1,-,219000
+aulnay sous bois,Appartement,44,2,1,1,-,89000
+paris 10,Appartement,500,-,-,-,-,800000
+paris 10,Appartement,500,-,-,-,-,150000
+asnieres sur seine,Appartement,45,2,1,1,-,225000
+asnieres sur seine,Appartement,45,2,1,1,-,229000
+pecqueuse,Maison,100,6,4,-,-,98000
+ris orangis,Maison,96,6,4,2,-,255000
+le perreux sur marne,Appartement,50,2,1,1,-,215000
+champigny sur marne,Appartement,72,4,2,1,-,197000
+paris 18,Appartement,100,4,3,2,-,49000
+paris 11,Appartement,60,3,2,1,-,550000
+sancy les provins,Maison,70,4,2,1,-,144000
+paris 10,Appartement,20,1,1,1,-,83000
+la frette sur seine,Maison,86,5,3,1,-,325000
+verneuil sur seine,Appartement,63,4,3,1,-,179500
+ris orangis,Appartement,52,2,1,1,-,128000
+saulx les chartreux,Maison,120,6,4,1,-,356000
+chevilly larue,Appartement,34,1,-,1,-,134900
+vaugrigneuse,Maison,150,5,4,2,-,525000
+asnieres sur seine,Appartement,59,3,2,1,-,275000
+villeneuve le roi,Appartement,44,3,2,1,-,164000
+yebles,Maison,180,7,5,4,-,380000
+viry châtillon,Appartement,77,4,2,1,-,169000
+la courneuve,Maison,80,4,3,1,-,298000
+asnieres sur seine,Appartement,64,3,2,1,-,382000
+soindres,Maison,100,3,2,1,-,235000
+chevilly larue,Appartement,85,4,3,1,-,256000
+paris 1,Appartement,67,2,1,1,-,835000
+nesles la vallee,Maison,220,7,5,3,-,499000
+vaux le penil,Maison,160,6,4,2,-,329000
+le raincy,Appartement,69,4,2,1,-,260000
+le raincy,Appartement,64,3,2,1,-,194000
+nanterre,Appartement,65,3,2,1,-,345000
+montfermeil,Maison,200,8,6,2,-,476000
+paris 10,Appartement,130,5,3,-,-,150000
+paris 10,Appartement,130,5,3,-,-,150000
+l hay les roses,Appartement,73,4,2,1,-,225000
+evry,Appartement,31,1,-,1,-,117000
+thiais,Appartement,90,5,3,1,-,233000
+paris 20,Appartement,73,4,3,1,-,577000
+taverny,Appartement,46,2,1,1,-,165000
+bagneux,Appartement,74,3,2,1,-,265000
+sevran,Appartement,52,3,2,1,-,160000
+evry,Appartement,24,1,-,1,-,115000
+drancy,Appartement,318,-,-,-,-,900000
+epinay sur seine,Appartement,69,4,3,1,-,158000
+viry châtillon,Appartement,76,4,3,1,-,259000
+vieux champagne,Maison,100,4,2,1,-,240000
+paris 8,Appartement,106,3,-,-,-,75008
+nanterre,Appartement,84,5,3,1,-,334000
+villiers le bel,Appartement,38,2,-,-,-,154000
+villiers le bel,Appartement,33,1,-,-,-,149000
+perigny,Maison,120,6,5,1,-,345000
+vincennes,Appartement,79,3,2,1,-,740000
+vinantes,Maison,80,4,3,1,-,240000
+pontoise,Maison,60,4,-,-,-,199000
+paris 8,Appartement,40,2,1,1,-,660000
+aubervilliers,Appartement,36,2,1,1,-,119000
+paris 18,Appartement,100,100,4,1,-,685000
+paris 18,Appartement,100,100,4,1,-,685000
+mours,Maison,137,6,4,3,-,337000
+serris,Appartement,65,3,2,1,-,235000
+la courneuve,Appartement,35,35,2,1,-,135000
+villejust,Appartement,72,4,2,1,-,239000
+brou sur chantereine,Appartement,76,4,3,1,-,189000
+vitry sur seine,Appartement,53,3,2,1,-,185000
+vitry sur seine,Appartement,53,3,2,1,-,185000
+st ouen en brie,Maison,50,2,1,1,-,135000
+puteaux,Appartement,40,2,2,1,-,280000
+rosny sous bois,Maison,134,5,3,2,-,450000
+rosny sous bois,Appartement,101,5,3,2,-,307000
+grisy suisnes,Appartement,55,55,2,1,-,155000
+asnieres sur seine,Appartement,101,5,4,1,-,405000
+sevran,Appartement,-,1,-,-,-,68000
+sevran,Appartement,-,1,-,-,-,68000
+paris 15,Maison,264,7,5,3,-,320000
+saulx les chartreux,Appartement,45,2,1,1,-,170000
+romainville,Maison,160,160,13,8,-,550000
+romainville,Maison,160,160,13,8,-,550000
+paris 20,Maison,45,4,3,1,-,22878
+paris 8,Maison,405,5,1,1,-,70000
+vanves,Appartement,22,2,1,1,-,140000
+roinvilliers,Maison,100,5,4,-,-,254400
+paris 16,Appartement,70,3,-,1,-,155150
+paris 6,Appartement,70,3,-,1,-,155150
+villemoisson sur orge,Maison,129,6,4,2,-,310000
+stains,Appartement,80,5,3,1,-,250000
+paris 19,Appartement,61,3,2,1,-,510000
+paris 19,Appartement,61,3,2,1,-,510000
+montigny les cormeilles,Appartement,71,3,2,1,-,169000
+bezons,Maison,260,7,4,2,-,890000
+garges les gonesse,Appartement,58,3,2,1,-,140000
+paris 15,Appartement,35,2,1,1,-,320000
+paris 12,Appartement,65,2,1,1,-,520000
+paris 10,Appartement,52,3,2,1,-,260000
+pierrefitte sur seine,Maison,93,6,4,2,-,300000
+villiers st frederic,Appartement,34,2,1,1,-,165000
+la roche guyon,Maison,110,5,4,1,-,260000
+courdimanche,Maison,85,4,3,1,-,275000
+villemoisson sur orge,Maison,130,6,4,2,-,340000
+paris 10,Maison,405,9,2,2,-,90000
+menucourt,Appartement,67,3,2,1,-,190000
+sevran,Appartement,65,3,2,1,-,130000
+le mesnil le roi,Appartement,74,4,2,1,-,380000
+clichy,Appartement,30,2,1,1,-,178000
+torfou,Appartement,30,2,1,1,-,97000
+montmagny,Appartement,48,3,2,1,-,157000
+montmagny,Appartement,48,3,2,1,-,157000
+deuil la barre,Appartement,77,3,2,1,-,260000
+fontainebleau,Appartement,90,4,2,1,-,290000
+clamart,Appartement,28,2,1,1,-,160000
+le mesnil le roi,Appartement,16,1,-,1,-,80000
+alfortville,Appartement,21,1,1,1,-,95000
+villem,Maison,140,6,5,1,-,315000
+villeneuve sur bellot,Maison,-,3,2,-,-,73000
+villeneuve sur bellot,Maison,-,3,2,-,-,48000
+villeneuve sur bellot,Maison,-,3,2,1,-,68000
+perigny,Maison,78,4,2,2,-,209000
+villeneuve sur bellot,Maison,-,6,4,1,-,220000
+draveil,Maison,250,11,-,-,-,495000
+vinantes,Maison,118,7,5,2,-,138000
+yebles,Maison,100,4,3,1,-,295000
+vieux champagne,Maison,100,5,3,1,-,163000
+grigny,Appartement,70,4,2,1,-,120000
+pontoise,Maison,122,6,4,2,-,450000
+servon,Appartement,63,3,2,1,-,168000
+servon,Appartement,63,3,2,1,-,168000
+servon,Appartement,63,3,2,1,-,168000
+servon,Appartement,63,3,2,1,-,168000
+evry,Maison,90,5,3,1,-,270000
+aulnay sous bois,Appartement,27,2,1,1,-,115000
+choisy le roi,Appartement,32,3,1,1,-,140000
+champigny sur marne,Maison,148,5,3,2,-,395000
+paris 12,Appartement,50,2,1,1,-,420000
+champigny sur marne,Maison,170,9,5,2,-,670000
+creteil,Appartement,74,3,2,1,-,289000
+deuil la barre,Appartement,67,3,2,1,-,185000
+vaux le penil,Appartement,21,1,1,1,-,77000
+paris 10,Maison,100,3,2,2,-,149000
+paris 10,Maison,100,3,2,2,-,149000
+yerres,Appartement,64,3,2,1,-,210000
+paris 10,Maison,100,3,2,2,-,149000
+champigny sur marne,Appartement,70,3,2,1,-,172000
+paris 20,Appartement,34,1,1,1,-,225000
+ville st jacques,Maison,30,2,2,1,-,28900
+paris 1,Appartement,70,3,2,1,-,85000
+paris 10,Maison,100,3,2,2,-,149000
+la queue les yvelines,Appartement,31,-,-,1,-,158000
+paris 10,Appartement,48,2,1,1,-,315000
+paris 10,Maison,45,2,1,1,-,35000
+paris 10,Maison,100,3,2,2,-,149000
+paris 10,Maison,100,3,2,2,-,149000
+paris 3,Appartement,105,4,3,-,-,250000
+pierrelaye,Appartement,65,3,2,1,-,240000
+fontainebleau,Appartement,67,4,3,1,-,210000
+reau,Appartement,60,3,2,1,-,215000
+le tertre st denis,Maison,35,-,2,-,-,56000
+pierrelaye,Appartement,65,3,2,1,-,240000
+vulaines les provins,Maison,50,3,2,-,-,75000
+villenoy,Maison,86,4,3,1,-,250000
+argenteuil,Maison,62,3,2,1,-,320000
+courcouronnes,Appartement,50,3,1,1,-,150000
+savigny le temple,Appartement,45,2,1,1,-,149500
+souppes sur loing,Maison,350,16,8,8,-,380000
+neufmoutiers en brie,Appartement,50,3,-,1,-,160000
+montgeron,Maison,434,7,6,2,-,440000
+vitry sur seine,Maison,110,5,3,1,-,450000
+paris 13,Appartement,104,3,2,2,-,1030000
+thiais,Maison,90,5,3,1,-,360000
+sucy en brie,Appartement,70,4,3,1,-,180000
+lisses,Maison,121,6,4,2,-,370000
+paris 18,Appartement,60,60,2,1,-,380000
+neufmoutiers en brie,Maison,145,4,-,-,-,207000
+neufmoutiers en brie,Maison,67,2,-,-,-,140000
+sannois,Appartement,217,4,4,2,-,70000
+paris 8,Appartement,-,2,1,-,-,85000
+oncy sur ecole,Maison,114,5,4,2,-,280000
+paris 17,Appartement,40,3,2,2,-,160000
+vaux le penil,Appartement,94,5,3,1,-,220000
+pontoise,Appartement,73,3,2,1,-,220000
+samoreau,Maison,50,2,1,1,-,160000
+paris 18,Appartement,110,3,2,2,-,820000
+puiseux pontoise,Appartement,110,5,3,2,-,320000
+vaux le penil,Maison,200,6,3,1,-,110000
+epinay sur seine,Appartement,66,3,2,1,-,190000
+le bourget,Maison,100,4,3,2,-,370000
+evry,Appartement,45,2,1,1,-,120000
+champagne sur seine,Maison,80,4,2,1,-,260000
+villeneuve sur bellot,Maison,200,4,2,1,-,140000
+drancy,Appartement,43,2,1,1,-,158000
+sarcelles,Appartement,25,1,1,1,-,86000
+antony,Maison,70,3,1,1,-,460000
+paris 10,Maison,250,-,-,-,-,150000
+aubervilliers,Maison,221,4,3,1,-,498000
+grigny,Appartement,75,2,3,1,-,115000
+chelles,Appartement,88,5,3,1,-,190000
+chaville,Appartement,58,3,2,1,-,258000
+ozoir la ferriere,Maison,160,6,4,2,-,445000
+pontault combault,Maison,109,5,3,1,-,333000
+chelles,Maison,105,6,4,1,-,272000
+montmorency,Appartement,79,4,2,1,-,235000
+voulangis,Maison,88,4,2,2,-,50000
+solers,Maison,96,5,4,2,-,295000
+st escobille,Appartement,39,2,1,1,-,145000
+villiers en biere,Appartement,73,4,3,1,-,145000
+le mee sur seine,Appartement,110,6,3,1,-,150000
+paris 20,Appartement,108,4,2,1,-,540000
+servon,Appartement,77,4,3,1,-,206000
+paris 1,Maison,91,91,3,1,-,32300
+montigny les cormeilles,Appartement,47,2,1,1,-,175000
+creteil,Appartement,114,6,3,1,-,240000
+sarcelles,Appartement,85,5,4,1,-,195000
+livry gargan,Appartement,50,3,2,1,-,150000
+vulaines les provins,Maison,118,5,4,2,-,245000
+le mesnil le roi,Appartement,80,4,2,1,-,369000
+bobigny,Appartement,84,4,3,1,-,269000
+clichy sous bois,Appartement,56,3,2,1,-,120000
+clichy,Appartement,65,3,2,1,-,100000
+clichy,Appartement,65,3,3,1,-,100000
+voulangis,Maison,100,5,3,1,-,280000
+versailles,Appartement,23,1,1,1,-,140000
+grigny,Appartement,70,4,2,1,-,180000
+neufmoutiers en brie,Maison,100,4,3,1,-,255000
+montfermeil,Maison,130,5,3,2,-,375000
+rosny sous bois,Maison,500,13,7,6,-,1707000
+paris 11,Appartement,121,5,4,1,-,780000
+sancy les provins,Maison,180,8,4,2,-,265000
+sevran,Appartement,30,1,-,1,-,72000
+vemars,Appartement,68,4,3,1,-,155000
+clichy,Appartement,48,2,1,1,-,215000
+emerainville,Maison,90,4,3,1,-,245000
+aulnay sous bois,Appartement,15,1,-,1,-,64000
+roissy en brie,Maison,93,5,3,1,-,235000
+roissy en brie,Maison,93,5,3,1,-,235000
+bobigny,Appartement,59,3,2,1,-,189000
+fontenay le fleury,Appartement,55,2,1,1,-,160000
+gournay sur marne,Maison,100,5,3,2,-,350000
+angerville,Maison,50,3,2,1,-,22000
+montigny sur loing,Maison,135,8,5,1,-,350000
+savigny le temple,Maison,145,6,4,2,-,262000
+vendrest,Maison,93,4,3,1,-,240000
+vaux le penil,Maison,70,4,2,1,-,130000
+creteil,Appartement,77,3,3,1,-,250000
+gagny,Maison,84,5,4,1,-,280000
+pontoise,Maison,75,5,3,1,-,255000
+ecquevilly,Appartement,56,2,1,1,-,170000
+paris 1,Appartement,12,1,-,1,-,147000
+paris 13,Appartement,9,-,-,-,-,89000
+pontault combault,Appartement,55,2,1,1,-,181000
+montmagny,Maison,174,6,3,2,-,410000
+choisy le roi,Appartement,82,4,3,1,-,249000
+plaisir,Appartement,60,3,2,1,-,195000
+paris 18,Appartement,80,3,2,1,-,390000
+aulnay sous bois,Appartement,96,4,3,2,-,178000
+clamart,Appartement,28,2,1,1,-,138000
+ecouen,Appartement,45,2,1,1,-,135000
+parmain,Maison,110,5,4,1,-,220000
+argenteuil,Appartement,122,4,2,1,-,375000
+sts,Maison,95,5,3,1,-,228000
+limeil brevannes,Appartement,90,5,3,1,-,210000
+colombes,Maison,90,4,3,1,-,500000
+ville st jacques,Maison,54,3,2,1,-,25000
+courbevoie,Appartement,47,2,1,1,-,190000
+nogent sur marne,Appartement,76,4,3,1,-,280000
+chelles,Maison,150,-,4,2,-,200000
+sarcelles,Maison,-,5,3,2,-,345000
+pontoise,Appartement,131,6,5,2,-,250000
+vigneux sur seine,Appartement,50,2,1,1,-,126000

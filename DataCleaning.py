@@ -27,36 +27,28 @@ def splitMergeAll(annonces):
         annonces = splitMerge(annonces, col)
     return annonces
 
-def formatVille(annonces):
-    
+def normalizeCitiesVille(villes):
+    villes['city_code'] = villes['city_code'].str.replace("paris 0", "paris ")
+    villes['city_code'] = villes['city_code'].drop_duplicates()
 
-    annonces['Ville'] = annonces['Ville'].str.lower()
-    annonces['Ville'] = annonces['Ville'].str.replace('é|è', 'e', regex=True)
-    annonces['Ville'] = annonces['Ville'].str.replace('eme|er', '', regex=True)
-    annonces['Ville'] = annonces['Ville'].str.replace('î|ï', 'i', regex=True)
-    annonces['Ville'] = annonces['Ville'].str.replace('-', ' ')
-    annonces['Ville'] = annonces['Ville'].str.replace("'", ' ')
-    annonces['Ville'] = annonces['Ville'].str.replace("saint","st")
-    
 
 def mergeVille(annonces, villes):
-    annonces = annonces.merge(villes[['label', 'latitude', 'longitude']], how="inner", left_on="Ville", right_on="label")
-    annonces = annonces.drop(['Ville'], axis=1)
-    annonces = annonces.drop(['label'], axis=1)
+    normalizeCitiesVille(villes)
+    annonces = annonces.merge(villes[['city_code', 'latitude', 'longitude']], how="inner", left_on="Ville", right_on="city_code")
+    # annonces = annonces.drop(['Ville', 'city_code'], axis=1)
     return annonces
 
 
-annonces = read_csv('data.csv', encoding='iso8859_15')
+annonces = read_csv('data.csv', encoding='latin1')
 annonces['DPE'] = annonces['DPE'].replace('-', 'Vierge')
 
 villes = read_csv('cities.csv')
-   
+
 clean_all(annonces)
 annonces = splitMergeAll(annonces)
-formatVille(annonces)
+
 annonces = mergeVille(annonces, villes)
 annonces = annonces.dropna()
 print(annonces.to_string())
 
-# print(villes[['label', 'latitude', 'longitude']].to_string())
 

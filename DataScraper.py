@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
+import re
 
 class NonValide(Exception):
 
@@ -35,6 +36,14 @@ def ville(soup):
     villeTexte = soup.find('h2', class_='mt-0').text
     indexVille = villeTexte.rfind(', ') + 2
     ville = villeTexte[indexVille::]
+
+    ville = ville.lower()
+
+    ville = re.sub('ème($)|er($)', '', ville)
+    ville = re.sub('é|è', 'e', ville)
+    ville = re.sub('ï|Î', 'i', ville)
+    ville = re.sub("-|'", ' ', ville)
+    ville = ville.replace('ÿ', 'y').replace('saint', 'st')
 
     return ville
  
