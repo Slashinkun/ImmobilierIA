@@ -39,10 +39,12 @@ def ville(soup):
 
     ville = ville.lower()
 
-    ville = re.sub('ème($)|er($)', '', ville)
+    ville = re.sub('ème($)', '', ville)
+    ville = re.sub('1er($)', '1', ville)
     ville = re.sub('é|è', 'e', ville)
     ville = re.sub('ï|Î', 'i', ville)
     ville = re.sub("-|'", ' ', ville)
+    ville = ville.replace('â','a')
     ville = ville.replace('ÿ', 'y').replace('saint', 'st')
 
     return ville
