@@ -35,20 +35,7 @@ def normalizeCitiesVille(villes):
 def mergeVille(annonces, villes):
     normalizeCitiesVille(villes)
     annonces = annonces.merge(villes[['city_code', 'latitude', 'longitude']], how="inner", left_on="Ville", right_on="city_code")
-    # annonces = annonces.drop(['Ville', 'city_code'], axis=1)
+    annonces = annonces.drop(['Ville', 'city_code'], axis=1)
     return annonces
-
-
-annonces = read_csv('data.csv', encoding='latin1')
-annonces['DPE'] = annonces['DPE'].replace('-', 'Vierge')
-
-villes = read_csv('cities.csv')
-
-clean_all(annonces)
-annonces = splitMergeAll(annonces)
-
-annonces = mergeVille(annonces, villes)
-annonces = annonces.dropna()
-print(annonces.to_string())
 
 
