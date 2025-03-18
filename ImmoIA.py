@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.pipeline import make_pipeline
 
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsRegressor
 
 from sklearn.decomposition import PCA
 
@@ -108,24 +108,24 @@ print("\n")
 
 for i in range(4,6):
 
-    k_neigbors = KNeighborsClassifier(n_neighbors=i)
+    k_neigbors = KNeighborsRegressor(n_neighbors=i)
     k_neigbors.fit(X_train,y_train)
     k_neigbors_pred = k_neigbors.predict(X_test)
     score_kn = k_neigbors.score(X_test,y_test)
-    print(f"KNeighbors {i} : " , score_kn)
+    print(f"KNeighborsR {i} : " , score_kn)
 
 
-    k_neigbors_std = make_pipeline(StandardScaler(),KNeighborsClassifier(n_neighbors=i))
+    k_neigbors_std = make_pipeline(StandardScaler(),KNeighborsRegressor(n_neighbors=i))
     k_neigbors_std.fit(X_train,y_train)
     k_neigbors_std_pred = k_neigbors_std.predict(X_test)
     k_neigbors_std_score = k_neigbors_std.score(X_test,y_test)
-    print(f"StandardScaler + KNeighbors {i} : ",k_neigbors_std_score)
+    print(f"StandardScaler + KNeighborsR {i} : ",k_neigbors_std_score)
 
-    k_neigbors_minmax = make_pipeline(MinMaxScaler(),KNeighborsClassifier(n_neighbors=i))
+    k_neigbors_minmax = make_pipeline(MinMaxScaler(),KNeighborsRegressor(n_neighbors=i))
     k_neigbors_minmax.fit(X_train,y_train)
     k_neigbors_minmax_pred = k_neigbors_minmax.predict(X_test)
     k_neigbors_minmax_score = k_neigbors_minmax.score(X_test,y_test)
-    print(f"MinMaxScaler + KNeighbors {i} : ",k_neigbors_minmax_score)
+    print(f"MinMaxScaler + KNeighborsR {i} : ",k_neigbors_minmax_score)
 
 #A faire : Visualisation des résultats
 
