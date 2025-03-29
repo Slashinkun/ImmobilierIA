@@ -1,25 +1,6 @@
-Question 18 :
 
-LR : 0.12318226266364984
-Normalisation + LR : 0.12318226266364962
-Standardisation + LR :  0.12203152287386765
-
-Question 20 :
-
-AD :
-Normalisation + AD :
-Standardisation + AD :
-
-Question 22:
-
-KNN :
-Normalisation + KNN :
-Standardisation + KNN :
-
-
-Question 23 : 
-
-
+Scores pour choisir entre DTR 4 ou DTR 5
+=> DTR 4 car il n'y a pas de différence significative
 
 AD 4 :  -3.8436409166205046
 StandardScaler + AD 4 :  -3.8436409166205046
@@ -27,6 +8,9 @@ MinMaxScaler + AD 4 :  -3.8436409166205046
 AD 5 :  -3.8128393256025976
 StandardScaler + AD 5 :  -3.8128393256025976
 MinMaxScaler + AD 5 :  -3.8128393256025976
+
+Scores pour choisir entre KNN 4 ou KNN 5
+=> KNN 5 car il y a une différence significative
 
 KNeighborsR 4 :  -0.07936733216470016
 StandardScaler + KNeighborsR 4 :  -0.29340129353744593
