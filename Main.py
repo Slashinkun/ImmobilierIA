@@ -6,7 +6,7 @@ from DataScraper import *
 from DataCleaning import *
 
 # Partie 1: Data Scraping
-# scrapLink("https://www.immo-entre-particuliers.com/annonces/france-ile-de-france/vente/ta-offer")
+#scrapLink("https://www.immo-entre-particuliers.com/annonces/france-ile-de-france/vente/ta-offer")
 
 # Partie 2: Data Cleaning
 annonces = read_csv('data.csv', encoding='latin1')
@@ -18,4 +18,8 @@ annonces = splitMergeAll(annonces)
 annonces = mergeVille(annonces, villes)
 annonces = annonces.dropna()
 
-print(annonces.to_string())
+
+
+
+
+#print(annonces.to_string())

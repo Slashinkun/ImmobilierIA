@@ -1,0 +1,36 @@
+Question 18 :
+
+LR : 0.12318226266364984
+Normalisation + LR : 0.12318226266364962
+Standardisation + LR :  0.12203152287386765
+
+Question 20 :
+
+AD :
+Normalisation + AD :
+Standardisation + AD :
+
+Question 22:
+
+KNN :
+Normalisation + KNN :
+Standardisation + KNN :
+
+
+Question 23 : 
+
+
+
+AD 4 :  -3.8436409166205046
+StandardScaler + AD 4 :  -3.8436409166205046
+MinMaxScaler + AD 4 :  -3.8436409166205046
+AD 5 :  -3.8128393256025976
+StandardScaler + AD 5 :  -3.8128393256025976
+MinMaxScaler + AD 5 :  -3.8128393256025976
+
+KNeighborsR 4 :  -0.07936733216470016
+StandardScaler + KNeighborsR 4 :  -0.29340129353744593
+MinMaxScaler + KNeighborsR 4 :  -0.651514319642573
+KNeighborsR 5 :  0.03448883596072605
+StandardScaler + KNeighborsR 5 :  -0.1873647746953675
+MinMaxScaler + KNeighborsR 5 :  -0.43956522230378714
