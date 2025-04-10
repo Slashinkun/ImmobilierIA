@@ -121,6 +121,8 @@ def afficher_graphique(y_pred, y_test, methode):
 def convertir_en_pca(X_train, X_test, nombre_composants):
     pca = PCA(n_components=nombre_composants)
     pca.fit(X_train)
+    explained_variance = pca.explained_variance_ratio.sum()
+    print("explained variance",explained_variance)
     X_train_pca = pca.transform(X_train)
     X_test_pca = pca.transform(X_test)
 
