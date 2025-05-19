@@ -5,11 +5,12 @@
 Projet de L3 Info (en binome)
 
 Une IA pour predire le prix d'un appartement selon plusieurs caracteristiques
+Ecrit en Python
 
 ## En quoi consiste le projet ?
 
-- Scraping de données sur un site immobilier avec **BeautifulSoup** et **requests**
-- Cleaning avec **Pandas**
+- Scraping de données (Récupération des données) sur un site immobilier avec **BeautifulSoup** et **requests**
+- Cleaning (Nettoyage des données) avec **Pandas**
 - Apprentissage avec differents modeles d'IA avec **Sklearn**
 
 
