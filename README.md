@@ -5,6 +5,7 @@
 Projet de L3 Info (en binome)
 
 Une IA pour predire le prix d'un appartement selon plusieurs caracteristiques
+
 Ecrit en Python
 
 ## En quoi consiste le projet ?
